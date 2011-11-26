@@ -17,15 +17,22 @@ Dann wechselt ihr in das Verzeichnis, in dem ihr die Testfallsammlung haben woll
     
 Herunterladen:
     
+    $ cd ~
     $ git clone git://github.com/maruchinu/tuwien-funkprog-tests-2011ws.git
 
 Das Testskript hält sich an die Standard-Abgabe-Nomenklatur der Dateien und sucht daher unter ~/Gruppe/ nach den Abgabedateien. Ihr könnt die Tests daher irgendwohin installieren und es sollte trotzdem funktionieren.
 
+Also, wenn ich das Repository einfach in euer Home-Verzeichnis klont, solltet ihr einen Ordner "tuwien-funkprog-tests-2011ws" darin finden und der folgende Aufruf führt die Tests aus.
+
 Tests durchführen:
 
-    $ sh <tests path>/test6.sh
+    $ sh ~/tuwien-funkprog-tests-2011ws/test6.sh
     
 Später dann halt eine andere Zahl hinter das 'test', je nach Abgabeblatt (test7, test8, ...).
+
+Tests aktualisieren:
+    $ cd ~/tuwien-funkprog-tests-2011ws
+    $ git pull
     
 ## Damit alles mit euren Abgabedateien klappt
 
